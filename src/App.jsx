@@ -56,8 +56,8 @@ function App() {
   return (
     <div className="App">
       <div className='header__container'>
-      <img className='header__img' src="/public/Rick.jpg.webp" alt="" />
-      <img className='header__title' src="/public/logorickandmorty.png" alt=""/>
+      <img className='header__img' src="/Rick.jpg.webp" alt="" />
+      <img className='header__title' src="/logorickandmorty.png" alt=""/>
       </div>
       <form onSubmit={handleSubmit} className='header__btn'>
         <input id='idlocation' className='header__input' type="text" placeholder='Enter another number from 1 to 126' onChange={handleChange}/>
