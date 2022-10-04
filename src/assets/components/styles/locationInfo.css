@@ -1,0 +1,25 @@
+.card__container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 40px;
+background-color: var(--background-cards);
+padding: 20px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+/* .card__location{
+
+} */
+.card__litem{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-weight: 500;
+    
+}
+.card__lspan{
+    font-weight: 700;
+   /*  transform: translateX(10px); */
+}

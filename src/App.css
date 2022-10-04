@@ -1,0 +1,58 @@
+.App{
+    max-width: 1760px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header__container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+.header__img{
+    width: auto;
+}
+.header__title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header__input{
+    border: none;
+    background: #e2e834;
+    margin: 0;
+    margin-top: 10px;
+    width: 300x;
+    height: 30px;
+}
+.header__search{
+    height: 30px;
+    background-color: #00b3ca;
+    color: white;
+}
+.header__search:hover{
+    background-color: #e2e834;
+}
+.ul__filter{
+    background-color: #e2e834;
+    margin: 0px;
+}
+.list__item{
+    background-color: #e2e834;
+    color: #00b3ca;
+}
+
+
